@@ -1,5 +1,8 @@
 # Create your haunted_houses migration here
 class CreateHauntedHouses < ActiveRecod::Migration[4.2]
   def change
+    create_table :haunted_houses do |t|
+      
+    end
   end
 end
